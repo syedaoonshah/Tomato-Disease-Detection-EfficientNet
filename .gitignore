@@ -1,0 +1,51 @@
+# Dataset folders
+dataset/
+dataset_proper_split/
+
+# Model files (large)
+models/*.h5
+*.h5
+
+# Checkpoints
+checkpoints/
+_checkpoints/
+
+# Logs
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training artifacts
+*.npy
+*.npz
