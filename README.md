@@ -1,6 +1,7 @@
 # 🍅 Tomato Leaf Disease Detection using EfficientNetB0
 
 > **State-of-the-art deep learning model achieving 98.73% accuracy on tomato leaf disease classification**
+> https://huggingface.co/spaces/syedaoon/tomato-disease-detector
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.10.1-orange.svg)](https://tensorflow.org/)
