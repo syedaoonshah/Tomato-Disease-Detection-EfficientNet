@@ -17,7 +17,6 @@
 - [Performance Comparison](#performance-comparison)
 - [Technical Details](#technical-details)
 - [Future Work](#future-work)
-- [Citation](#citation)
 
 ## 🎯 Overview
 
@@ -279,7 +278,7 @@ wsl python3 test_on_folder.py dataset_proper_split/test
 
 4. **Data Preprocessing**
    - Corrected split: 8,800 train (was 8,000 - **discovered and fixed!**)
-   - Rescaling only (no augmentation - following paper methodology)
+   - Rescaling only (no augmentation)
 
 ### Hardware Utilization
 
@@ -292,20 +291,6 @@ GPU: NVIDIA GeForce RTX 4060 Laptop
 ```
 
 **Total Training Time**: ~40 minutes for 200 epochs
-
-## 🎯 Comparison with Literature
-
-| Paper/Model | Accuracy | Notes |
-|-------------|----------|-------|
-| **Original Paper (2020)** | 99.91% | Ensemble of 5 models (questionable methodology) |
-| **Our MobileNetV2** | 92.45% | Single model, proper validation |
-| **Our EfficientNetB0** | **98.73%** | **Single model, state-of-the-art** |
-| **Our Ensemble** | 98.64% | Validates EfficientNetB0 optimality |
-
-**Our single EfficientNetB0 model achieves near-paper performance with:**
-- ✅ 1 model vs 5 models (5× faster inference)
-- ✅ Proper train/val/test split (paper used full dataset)
-- ✅ No data leakage or overfitting
 
 ## 🚧 Future Work
 
