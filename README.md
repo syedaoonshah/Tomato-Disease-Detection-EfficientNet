@@ -43,6 +43,7 @@ This project implements a **highly accurate tomato leaf disease detection system
 | **Ensemble** | 99.27% | 98.64% | 8.8M |
 
 ![Model Comparison](results/comparisons/model_accuracy_comparison.png)
+https://huggingface.co/spaces/syedaoon/tomato-disease-detector
 
 ### Per-Class Performance
 
