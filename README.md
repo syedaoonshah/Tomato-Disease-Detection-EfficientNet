@@ -30,6 +30,8 @@ This project implements a **highly accurate tomato leaf disease detection system
 - ✅ **Production-Ready** - Inference scripts for batch processing and real-time predictions
 - ✅ **Comprehensive Metrics** - Detailed per-class performance analysis
 
+- ![HuggingFace](results/comparisons/image.png)
+
 ## 🏆 Results
 
 ### Overall Performance
